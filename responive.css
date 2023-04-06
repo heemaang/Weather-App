@@ -1,0 +1,272 @@
+
+@media only screen and (max-width:1435px){
+    *{
+      margin: -5px;
+    }
+    header{
+      height: 174px;
+      transition:all 0.2s ease-out;
+    }
+    .logo{
+  
+        margin-left: 40%;
+        font-size: 42px;
+        margin-top: -6px;
+    }
+    .img {
+      height: 62px;
+      padding: 0px;
+      margin-top: -6px;
+   }
+  
+    .nav-list{
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 21px;
+    }
+    .responive{
+      flex-direction: column;
+    }
+    #search{
+      margin-left: 2%;
+      width: 126px;
+      padding: 2px;
+      border-radius:4px;
+      margin-top: 5px;
+    }
+    .btn{
+      margin-left: -5%;
+      font-size: 10px;
+      border-radius: 4px;
+      padding: 6px;
+      margin-top: 34px;
+      text-align: center;
+  }
+    .burger{
+    display: block;
+    }
+    .h-nav{
+      height: 65px;
+    }
+    .v-class{
+      visibility:hidden;
+    }
+    .home{
+      margin-top: 27px;
+      margin-left: 21px;
+    }
+    .main-conatiner{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height:874px;
+    }
+    .card{
+      width: 74%;
+    }
+    /* #main-section{
+      height: 1060px;
+    } */
+    body::before{
+      height:190%;
+    }
+    .title1{
+      width: 98%;
+      font-size: 30px;
+      margin: 12px;
+      padding: 15px;
+      height: 19%;
+    }
+    .img-temp{
+      margin-left: 236px;
+      margin-top: 117px;
+    }
+    .img-wind{
+      margin-left: 236px;
+      margin-top: 117px;
+    }
+    .img-humu{
+      margin-left: 236px;
+      margin-top: 117px;
+    }
+    .second-li{
+      margin-top: -65px;
+      margin-left: -34px;
+      padding: 2px;
+    }
+    #city{
+      margin-top: -73px;
+      margin-left: -250px;
+    }
+    .btn{
+      margin-left: -9%;
+      font-size: 15px;
+      border-radius: 16px;
+      padding: 6px;
+      margin-top: -72px;
+      text-align: center;
+    }
+    .img-main{
+      margin-left: 87%;
+      margin-top: -41px;
+      height: 60px;
+    }
+    .second-ul {
+      margin-left: 73px;
+      margin-top: 98px;
+  } 
+    .today{
+      display: none;
+    }
+  }
+  
+  
+  @media only screen and (max-width:644px){
+    body::before{
+      height:250%;
+      width: 106%;
+    
+    }
+    .nav-list{
+      margin-left: -205px;
+      text-align: center;
+    }
+    .main-conatiner{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 1214px;
+      width: 76%;
+    }
+    .img-main{
+      margin-left: 70%;
+      height: 82px;
+      margin-top: 15px;
+    }
+    #city {
+      margin-top: -89px;
+      margin-left: -121px;
+      width: 110px;
+    }
+    .btn {
+      margin-left: -1%;
+      font-size: 15px;
+      border-radius: 18px;
+      padding: 6px;
+      margin-top: -89px;
+      text-align: center;
+    }
+    .card {
+      width: 104%;
+  }
+    .second-ul {
+    margin-top: 166px;
+      }
+    .img-temp {
+    margin-left: -50px;
+    margin-top: 45px;
+    }
+    .img-wind {
+      margin-left: -50px;
+      margin-top: 20px;
+    }
+    .img-humu {
+      margin-left: -50px;
+      margin-top: 40px;
+    }
+    .logo {
+        margin-left: 30%;
+        font-size: 34px;
+        margin-top: 2px;
+    }
+    .burger {
+      display: block;
+      margin-top: 4px;
+      padding: 2px;
+    }
+    .img {
+      height: 41px;
+      padding: 0px;
+      margin-top: 3px;
+    }
+    .today{
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width:517px){
+    #datetime-container {
+      font-family: 'Poppins', sans-serif;
+      font-size: 17px;
+      margin-top: 25px;
+  }
+  }
+  @media only screen and (max-width:453px){
+    #datetime-container {
+      font-size: 15px;
+      margin-top: -24px;
+    }
+    
+    .second-ul {
+      margin-left: 39px;
+      margin-top: 183px;
+      font-size:22px;
+    }
+    .img-wind {
+      margin-left: -51px;
+      margin-top: 45px;
+      height: 76px;
+    }
+    h2{
+      font-size: 29px;
+    }
+    .img-humu {
+      height: 80px;
+    }
+    .img-temp{
+    height: 80px;
+    }
+    .img-wind {
+    height: 80px;
+    }
+    .logo{
+      margin-left: 16%;
+      font-size: 30px;
+    }
+    .today{
+      display:none;
+    }
+  }
+  @media only screen and (max-width:365px){
+    .second-ul {
+      margin-left: 37px;
+      margin-top: 198px;
+      font-size: 18px;
+    }
+    h2 {
+      font-size: 26px;
+    }
+    .img-main {
+      margin-left: 71%;
+      height: 63px;
+      margin-top: 12px;
+    }
+    .btn {
+      margin-left: 2%;
+    }
+    #city {
+      margin-top: -89px;
+      margin-left: -100px;
+      width: 101px;
+    }
+    .title1{
+      font-size:27px;
+    }
+    #datetime-container {
+      font-size: 13px;
+      margin-top: -5px;
+    }
+    body::before{
+        width: 106%;
+    }
+  }

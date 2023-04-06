@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="responive.css">
+</head>
+<body>
+<!-- Staring navbar -->
+    <header class="header h-nav">
+        <nav class=>
+            <div class="logo"> <img class="img" src="/cloudy-day.png" alt=""> &nbsp;Weather App</div>
+                <ul class="nav-list v-class">
+                    <li class="home"><a  href="/index.html"> Home</a> </li>
+                    <li class="home"><a href="/About this.html"> About This</a> </li>
+                    <li class="home"><a href="/About this.html"> How it Works</a> </li>
+                  
+                </ul>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+<!-- ending navbar -->
+<!-- SECTION START -->
+    <section id="main-section">
+            <div class="main-conatiner">
+                <div class="title1"><h3 class="title">Weather for <span id="cityName"></span></h3>
+                    <img class="img-main" src="/sunny.png" alt="">
+                    <div id="datetime-container"></div>
+                </div>
+                <div class="responive ">
+                    <input type="text"placeholder="Search"  id="city">
+                    <button class="btn" type="submit" id="submit">&#x1F50E;</button>
+                </div>
+                    <div class="today">Today's Highlights</div>
+                    <div class="card">
+                        <h2>Temperature is <br> <span id="temp"></span> &#x2103;</h2>
+                        <ul class="second-ul">
+                            <li class="second-li">Min Temperature is &nbsp;  <span id="min_temp"> </span> &#x2103;</li>
+                            <li class="second-li">Max Temperature is &nbsp;  <span id="max_temp"></span> &#x2103;</li>
+                            <div class="logo-temp"><img class="img-temp"src="/temperature.png" alt=""></div>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h2>Humidity is <br><span id="humidity"></span></h2>
+                        <ul class="second-ul">
+                            <li class="second-li">Cloud PCT is&nbsp; <span id="cloud_pct"> </span></li>
+                            <li class="second-li">Feels like &nbsp; <span id="feels_like"></span></li>
+                            <div class="logo-humu"><img class="img-humu" src="/humidity.png" alt=""></div>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h2>Wind speed is <br><span id="wind_speed"></span></h2>
+                        <ul class="second-ul">
+                            <li class="second-li">Sunrise Time is &nbsp;<span id="sunrise"></span></li>
+                            <li class="second-li">Wind Degrees is &nbsp;<span id="wind_degrees"></span></li>
+                            <div class="logo-wind"><img class="img-wind" src="/wind.png" alt=""></div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="desgin">Desgin by Heemaang Saxena</div>
+    </section>
+<!-- SECTION END -->
+    <script src="weather.js"></script>
+</body>
+</html>
